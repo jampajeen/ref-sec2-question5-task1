@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <title>CalcApp.js</title>
+  <link rel="stylesheet" type="text/css" href="./index.css"/>
+
+</head>
+
+<body>
+
+  <div class="content">
+    <div class="container">
+
+      <div class="row row-one">
+        <div class="item">A</div>
+        <input id="a" class="item" type="text" />
+      </div>
+
+      <div class="row row-two">
+        <div class="item">B</div>
+        <input id="b" class="item" type="text" />
+      </div>
+
+      <div class="row row-three">
+        <input id="plus" class="item" type="button" value="+" />
+        <input id="minus" class="item" type="button"  value="-" />
+        <input id="multiply" class="item" type="button"  value="x" />
+        <input id="divide" class="item" type="button"  value="/" />
+        <input id="power" class="item" type="button"  value="Pow" />
+      </div>
+
+      <div class="row row-four">
+        <div class="item">Result</div>
+        <input id="result" class="item" type="text" />
+      </div>
+
+      <div class="row row-six">
+        <input id="load" class="item" type="button"  value="Load" />
+        <input id="save" class="item" type="button"  value="Save" />
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
